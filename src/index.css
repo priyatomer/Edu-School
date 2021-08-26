@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+body { 
+
+  overflow-x: hidden; 
+}
+
+.nav_heading{
+  background-color: #190061!important;
+
+ 
+}
+ 
+/*............home.............*/
+.home_div{
+  background-color: #240090;
+  height: 58vh;
+}
+.home_heading{
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+.home_one h1 span{
+ margin:0px 270px;
+ line-height:3rem;
+}
+.home_img{
+width:75%;
+ height:55vh;
+}
+.btn_started{
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  
+  
+
+  background-color: #f8e9a1;
+  margin: -30px 17.5rem;
+}
+.home_two{
+  background-color: red;
+  color:chocolate;
+  width:100%;
+  height: 40vh;
+
+}
+/*............home.............*/
+/*---------------About----------*/
+.about_heading{
+  color:#f8e9a1;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 9vh;
+
+}
+.about_para{
+  font-size: 18px;
+  line-height: 52px;
+  word-spacing: 12px;
+  font-weight: 500;
+
+}
+.about_hr{
+ width:150px;
+ border-bottom: 3.5px solid #ff9d00!important;
+
+}
+.course_hr{
+ 
+  width:150px;
+ border-bottom: 3.5px solid #ff9d00!important;
+}
+/*---------------About----------*/
+
+/*....Register...*/
+.contact_div{
+  
+
+  background-color: #f5f5f5;
+
+}
+.courses_div{
+  
+margin-top: -3rem;
+  background-color: #f5f5f5;
+
+}
+.complete_register{
+
+  height: 60vh;
+}
+
+.register_heading{
+  color:#ff9d00;
+
+  font-weight: 700;
+  padding-top: 2rem;
+
+
+}
+.contact_heading{
+  color:#ff9d00;
+  
+  font-weight: 700;
+  padding-top: -75px;
+}
+
+  .register{
+   width:500px;
+   height:350px;
+   margin:50px 40px;
+  }
+
+.list{
+  font-size: 20px;
+  color:#757575;
+ text-align: center;
+ line-height: normal;
+}
+form{
+  background-color: #f5f5f5!important ;
+ 
+  
+
+}
+ form input{
+  background-color: #f5f5f5!important ;
+}
+form select{
+  background-color: #f5f5f5!important ;
+}
+.priya{
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 115vh;
+}
+.course_btn{
+  border:1px solid #190061!important;
+
+  padding:5px 15px;
+  border-radius: 5px;
+letter-spacing: 2px;
+margin-top:3rem;
+margin-left: 40rem;
+text-transform: uppercase;
+}
+ 
+/*....Register...*/
+/*---------------Footer----------*/
+footer p{
+  padding: 0;
+  margin: 0;
+}
+.footer{
+  width:100%;
+  height:60vh;
+  background: #190061!important;
+
+}
+.last_footer{
+  background-color: black;
+  color:white;
+
+}
+
+.text{
+  color:#ff9d00;
+}
+.nav_img{
+  width:180px;
+  height:90px; 
+}
+.nav_heading h1{
+  font-size: 2.5rem;
+}
+
+.one{
+  margin-top: 45px;
+}
+
+.footer_two{
+  margin-left: 2rem;
+ 
+}
+.about_heading{
+  margin-top: 3rem;
+}
+
+/*---------------Footer----------*/
+
+/*.............Card.......*/
+
+/*------responsiveness--------*/
+@media (max-width: 576px){
+  .nav_img{
+    width:70px;
+    height:60px; 
+  
+  }
+  .nav_heading{
+    max-width: 100%;
+
+   
+  }
+  .nav_heading h1{
+    font-size: 19px;
+   
+  }
+  .home_one h1 .home_head{
+ padding-left: -3px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -1rem;
+  }
+  .home_one h1 span{
+  margin-left: 3px;
+  font-size: 20px;
+  font-weight: 700;
+   
+   }
+  .home_one button{
+    text-align: center;
+margin-left: 3rem;
+margin-top: -20px;
+font-size: 10px;
+padding: 4px 40px;
+  }
+  .home_img{
+    width:25%;
+     height:25vh;
+     margin-top:-12rem;
+    }
+  .about_comp{
+margin-top:-12rem;
+  }
+  .about_comp h1{
+    margin-top:2rem;
+    font-size:24px ;
+      }
+  .about_para{
+    font-size: 15px;
+  line-height: 42px;
+  word-spacing: 10px;
+  font-weight: 500;
+  justify-content: center;
+    
+  }
+
+  .courses_div .about_heading{
+    text-align: left;
+    
+  }
+  #header{
+    height: 80vh;
+    text-align: center;
+   
+  }
+
+  #header .header-img{
+    text-align: center;
+  }
+
+  #header .header-img img{
+    margin-top: -1rem ;
+    margin-left: 1rem;
+    max-width:100%; 
+    height:70vh ;
+    margin-bottom:-7rem ;
+  }
+
+  #header form{
+    margin-bottom:17rem ;
+
+  }
+ 
+ 
+   .footer{
+     width:100%;
+     height: auto;
+   }
+   .registercomp{
+     margin-bottom: 4rem;
+   }
+   .one{
+    padding-top: -4rem;
+      
+    }
+
+   .footer_one{
+    margin-left: 2rem ;
+    
+   
+    
+       }
+   .footer_two{
+margin-left: 2.5rem ;
+
+   }
+
+
+}
